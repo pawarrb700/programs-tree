@@ -21,7 +21,7 @@ public class Main {
 		TreeFiller<Integer> treeFiller = new TreeFiller<>();
 		TreeNode<Integer> tree = treeFiller.addNode(2, 5, 7, 9, 11, 10, 21);
 		
-		System.out.println("Options :\n1.Inorder traversal using recursion.\n2. Exit");
+		System.out.println("Options :\n1.Inorder traversal using recursion.\n2.Exit");
 		System.out.println("Please Enter your option :");
 		Scanner s = new Scanner(System.in);
 		
